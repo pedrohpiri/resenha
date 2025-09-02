@@ -4,7 +4,7 @@
       <a href="#eventalignment"><font-awesome-icon icon="house" /> Alinhamento Festival</a>
       <a href="#staff"><font-awesome-icon icon="users" /> Staff</a>
       <a href="#commands"><font-awesome-icon icon="terminal" /> Comandos</a>
-      <a href="#halloffame"><font-awesome-icon icon="trophy" /> Hall da Fama</a>
+<a href="#halloffame"><font-awesome-icon icon="trophy" /> Print Presença</a>
       <a href="#notices"><font-awesome-icon icon="bell" /> Avisos</a>
       <a href="#eventschedule"><font-awesome-icon icon="clock" /> Horários</a>
       <a href="#worlds"><font-awesome-icon icon="link" /> Mundos</a>
