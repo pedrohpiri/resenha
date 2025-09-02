@@ -127,6 +127,18 @@
         </div>
       </div>
     </section>
+
+    <section class="veiculos-festival">
+      <h3>Spawns | Veículos</h3>
+      <div class="veiculo">
+        <img src="/CARPBUS2.png" alt="Car PBUS2" style="max-width: 200px; height: auto;" />
+        <p>Car PBUS2 - Veículo utilizado para som e transporte em eventos.</p>
+      </div>
+      <div class="veiculo">
+        <img src="/CARRCBANDITO.png" alt="Car RCBANDITO" style="max-width: 200px; height: auto;" />
+        <p>Car RCBANDITO - Veículo off-road para locomoção em terrenos difíceis.</p>
+      </div>
+    </section>
   </div>
 </template>
 
