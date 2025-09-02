@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>© 2025 Cidade Grande - Pasta de Eventos desenvolvido por PH Id: 8493</p>
+    <p>© 2025 Cidade Grande - Pasta de Festival. DEV por PH Id: 8493</p>
   </footer>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 footer {
-  background-color: #6b21a8;
+  background-color: #0b3d0b; /* verde escuro */
   color: white;
   text-align: center;
   padding: 15px 0;

@@ -12,9 +12,9 @@ export default {
 
 <style scoped>
 .alignment-card {
-  background: white;
+  background: #a4c639; /* verde vibrante da imagem */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(0, 80, 0, 0.2); /* sombra verde escuro sutil */
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -28,7 +28,7 @@ export default {
 }
 
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro para contraste */
   font-weight: 700;
   font-size: 2em;
 }

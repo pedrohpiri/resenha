@@ -15,7 +15,7 @@
         <div class="command-highlight">
           <font-awesome-icon icon="lightbulb" class="icon" /> <strong>Comando útil:</strong>
           <p>
-            <code>mundoarea 10 evento</code> - O número <code>10</code> é apenas um exemplo de distância (pode ser de <code>0</code> a <code>100</code>). Esse comando envia todas as pessoas no <strong>raio de distância X</strong> para o <strong>mundo desejado</strong>, podendo ser qualquer um dos listados acima.
+          <code>mundoarea evento 10</code> - O número <code>10</code> é apenas um exemplo de distância (pode ser de <code>0</code> a <code>100</code>). Esse comando envia todas as pessoas no <strong>raio de distância X</strong> para o <strong>mundo desejado</strong>, podendo ser qualquer um dos listados acima.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default {
 }
 
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
 }
 
@@ -89,16 +89,16 @@ h2 {
 }
 
 .worlds-list li:hover {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
 }
 
 .icon {
-  color: #1e90ff;
+  color: #4cbb17; /* verde médio */
   transition: color 0.3s ease;
 }
 
 .worlds-list li:hover .icon {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
 }
 
 .worlds-info {
@@ -115,18 +115,18 @@ h2 {
 }
 
 .command-highlight {
-  background-color: #f3f4f6;
-  border-left: 4px solid #6b21a8;
+  background-color: #f9fff0; /* fundo claro */
+  border-left: 4px solid #a4c639; /* verde vibrante */
   padding: 10px 15px;
   border-radius: 4px;
   margin-top: 10px;
 }
 
 code {
-  background: #e0e7ff;
+  background: #e6f2d9; /* fundo claro */
   padding: 2px 6px;
   border-radius: 4px;
   font-family: monospace;
-  color: #3730a3;
+  color: #0b3d0b; /* verde escuro */
 }
 </style>

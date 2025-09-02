@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
 }
 img {

@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <nav class="menu">
-      <a href="#eventalignment"><font-awesome-icon icon="house" /> Alinhamento Evento</a>
+      <a href="#eventalignment"><font-awesome-icon icon="house" /> Alinhamento Festival</a>
       <a href="#staff"><font-awesome-icon icon="users" /> Staff</a>
       <a href="#commands"><font-awesome-icon icon="terminal" /> Comandos</a>
       <a href="#halloffame"><font-awesome-icon icon="trophy" /> Hall da Fama</a>
       <a href="#notices"><font-awesome-icon icon="bell" /> Avisos</a>
-      <a href="#schedule"><font-awesome-icon icon="clock" /> Horários</a>
+      <a href="#eventschedule"><font-awesome-icon icon="clock" /> Horários</a>
       <a href="#worlds"><font-awesome-icon icon="link" /> Mundos</a>
       <a href="#controleeventos"><font-awesome-icon icon="link" /> Controle Eventos</a>
       <a href="#discordlogs"><font-awesome-icon icon="link" /> Logs Discord</a>
@@ -111,8 +111,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f5;
-  color: #333;
+  background-color: #e6f2d9; /* fundo claro verde */
+  color: #0b3d0b; /* texto verde escuro */
 }
 
 #app {
@@ -122,13 +122,13 @@ body {
 }
 
 .menu {
-  background-color: #5a2d82;
+  background-color: #a4c639; /* verde vibrante */
   padding: 12px 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(90, 45, 130, 0.3);
+  box-shadow: 0 4px 8px rgba(164, 198, 57, 0.3); /* sombra verde */
   flex-wrap: wrap;
 }
 
@@ -150,18 +150,18 @@ body {
 .card {
   margin-top: 40px;
   padding: 25px 30px;
-  background-color: white;
+  background-color: #f9fff0; /* fundo claro para cards */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
   transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 25px rgba(164, 198, 57, 0.3);
 }
 
 section h2 {
-  color: #5a2d82;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 1.8em;
@@ -170,7 +170,7 @@ section h2 {
 section p {
   line-height: 1.6;
   font-size: 1.05em;
-  color: #555;
+  color: #355e1a; /* verde médio para texto secundário */
 }
 
 /* Media queries for responsiveness */
