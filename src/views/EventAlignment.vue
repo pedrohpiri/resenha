@@ -1,6 +1,6 @@
 <template>
   <div class="alignment-card">
-    <h2>Alinhamento Evento</h2>
+    <h2>Alinhamento Festival</h2>
   </div>
 </template>
 
