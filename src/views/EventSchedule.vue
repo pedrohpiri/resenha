@@ -47,15 +47,15 @@ export default {
 
 <style scoped>
 .schedule-card {
-  background: white;
+  background: #f9fff0; /* fundo claro para cards */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
   padding: 20px;
   margin-top: 20px;
 }
 
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 1.8em;
@@ -78,19 +78,19 @@ h2 {
 }
 
 .schedule-table th {
-  background-color: #5a2d82;
+  background-color: #a4c639; /* verde vibrante */
   color: white;
   font-weight: 600;
 }
 
 .schedule-table tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #e6f2d9; /* fundo claro alternado */
 }
 
 .note {
   margin-top: 15px;
   font-size: 1em;
-  color: #333;
+  color: #355e1a; /* verde médio */
   font-style: italic;
 }
 </style>

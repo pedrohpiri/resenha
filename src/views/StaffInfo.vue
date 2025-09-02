@@ -38,15 +38,15 @@ export default {
 
 <style scoped>
 .staff-info-card {
-  background: white;
+  background: #f9fff0; /* fundo claro para cards */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
   padding: 20px;
   margin-top: 20px;
 }
 
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -118,15 +118,15 @@ h2 {
 
 h3 {
   margin-top: 30px;
-  color: #5a2d82;
+  color: #0b3d0b; /* verde escuro */
 }
 .hierarquia-container {
-  background: #1a1a1a;
+  background: #0b2e00; /* verde escuro */
   color: white;
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 15px rgba(11, 61, 11, 0.4); /* sombra verde */
 }
 
 .hierarquia-container ul {
@@ -168,7 +168,7 @@ h3 {
 }
 
 .sublider {
-  background: #9370db;
+  background: #4cbb17; /* verde médio para sublíder */
 }
 
 .mention {
@@ -201,6 +201,6 @@ h3 {
 }
 
 .sublider-icon {
-  color: #9370db;
+  color: #4cbb17; /* verde médio */
 }
 </style>

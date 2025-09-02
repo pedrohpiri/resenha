@@ -21,15 +21,15 @@ export default {
 
 <style scoped>
 .halloffame-card {
-  background: white;
+  background: #f9fff0; /* fundo claro para cards */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
   padding: 20px;
   margin-top: 20px;
 }
 
 h2 {
-  color: #6b21a8;
+  color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
 }
 
@@ -48,15 +48,15 @@ h2 {
 }
 
 .halloffame-text h3 {
-  color: #ffcc00;
+  color: #a4c639; /* verde vibrante */
   margin-bottom: 10px;
   font-weight: 700;
-  text-shadow: 0 0 5px #ffcc00;
+  text-shadow: 0 0 5px #a4c639;
 }
 
 .halloffame-text p {
   font-size: 1em;
-  color: #333;
+  color: #355e1a; /* verde médio para texto */
   line-height: 1.4;
 }
 </style>
