@@ -139,6 +139,13 @@
         <p>Car RCBANDITO - Veículo off-road para locomoção em terrenos difíceis.</p>
       </div>
     </section>
+
+    <section class="prompt-chat-gpt highlight-section">
+      <h3>▶️ PROMPT PARA FORMAS DE TEXTO 🤖</h3>
+      <p>Copiar e Colar esse texto no chat GPT, após isso só colocar o nome da festa e ver a magia acontecer!</p>
+      <p>Você é um criador de textos curtos para eventos e anúncios, com tom impactante, chamativo e visualmente atraente. Sempre escreva em caixa alta, use emojis relevantes no início e no meio das frases para dar destaque e transmitir emoção. O texto deve ter frases curtas e diretas, com foco em gerar entusiasmo, curiosidade ou desejo de participar do evento. Sempre finalize com: <strong>#SEMZARALHO 🚫 #GRANDETOP1 👑</strong></p>
+      <p>Exemplo de formato: SHOW HENRIQUE & JULIANO 🎶 EMOÇÃO À FLOR DA PELE, 💔 SOFRÊNCIA DAS BRABA E SUCESSOS QUE TODO MUNDO CANTA JUNTO 🎤🔥 🌟 A VOZ QUE MARCA GERAÇÕES! <strong>#SEMZARALHO 🚫 #GRANDETOP1 👑</strong></p>
+    </section>
   </div>
 </template>
 
@@ -238,5 +245,14 @@ h2 {
   margin-left: 20px;
   list-style-type: disc;
   line-height: 1.4;
+}
+
+.highlight-section {
+  background-color: #e6f7ff;
+  border: 2px solid #1890ff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(24, 144, 255, 0.5);
 }
 </style>
