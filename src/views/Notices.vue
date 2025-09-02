@@ -4,7 +4,7 @@
     <p>
       É muito importante verificar o canal de <strong>avisos</strong> com regularidade. Informações importantes, reuniões, mudanças e decisões da pasta são sempre postadas lá.
     </p>
-    <font-awesome-icon icon="discord" size="6x" style="margin-top: 10px; color: #5865F2;" />
+    <font-awesome-icon :icon="['fab', 'discord']" size="6x" style="margin-top: 10px; color: #5865F2;" />
   </div>
 </template>
 

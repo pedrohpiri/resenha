@@ -86,6 +86,47 @@
         </ul>
       </div>
     </section>
+
+    <section class="comandos-anti-zaralho">
+      <h3>Comandos e Funções Anti Zaralho</h3>
+
+      <div class="comando">
+        <img src="/fucaof3.png" alt="Função F3" />
+        <div class="descricao">
+          <h4>Função F3</h4>
+          <p>Mentalize o comando "Festa" no F8 no início do horário de soltura.</p>
+          <p><strong>Passo a passo:</strong></p>
+          <ul>
+            <li>Copiar o texto em #formas-de-texto.</li>
+            <li>Colar na caixinha do comando "Festa".</li>
+            <li>Conferir os emojis e a escrita.</li>
+            <li>Enviar no local e horário combinados.</li>
+            <li>Soltar um por vez.</li>
+            <li>Terminado de soltar, um saiu da tela? Solte o próximo!</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="comando">
+        <img src="/funcaosom.png" alt="Função do Som" />
+        <div class="descricao">
+          <h4>Função do Som</h4>
+          <p>Analise o espaço do local da festa e cole no F8 o código do veículo, que fica disponível em #comandos-e-spawn.</p>
+          <p>Lembre-se sempre de trancar o veículo, abrir todas as portas no F9!</p>
+          <p>Mentalize "Som" no F8 e deixe a música rolar.</p>
+          <p>Nunca deixe alguém de fora, andar nos veículos.</p>
+        </div>
+      </div>
+
+      <div class="comando">
+        <img src="/funcaontizaralho.png" alt="Função Anti-Zaralho" />
+        <div class="descricao">
+          <h4>Função Anti-Zaralho</h4>
+          <p>Nosso papel é garantir que todo mundo possa curtir de boa, com segurança e respeito, sem brigas, tumultos ou bagunça desnecessária.</p>
+          <p>A galera fica rodando pela festa garantindo que nenhum participante irá matar, algemar ou fazer algum tipo de zaralho.</p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -136,5 +177,54 @@ h2 {
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.comandos-anti-zaralho {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.comandos-anti-zaralho h3 {
+  color: #0b3d0b;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  border-bottom: 2px solid #a4c639;
+  padding-bottom: 8px;
+}
+
+.comando {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  background: #f0f5e1;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(164, 198, 57, 0.15);
+}
+
+.comando img {
+  max-width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.comando .descricao {
+  flex: 1;
+}
+
+.comando .descricao h4 {
+  color: #4a7c1e;
+  margin-bottom: 10px;
+}
+
+.comando .descricao p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.comando .descricao ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  line-height: 1.4;
 }
 </style>
