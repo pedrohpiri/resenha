@@ -25,6 +25,10 @@
       <StaffInfo />
     </section>
 
+    <section id="controleeventos" class="card">
+      <ControleEventos />
+    </section>
+
     <section id="halloffame" class="card">
       <HallOfFame />
     </section>
@@ -35,10 +39,6 @@
 
     <section id="worlds" class="card">
       <Worlds />
-    </section>
-
-    <section id="controleeventos" class="card">
-      <ControleEventos />
     </section>
 
     <section id="notices" class="card">
