@@ -173,6 +173,19 @@ section p {
   color: #355e1a; /* verde médio para texto secundário */
 }
 
+img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.2);
+  z-index: 10;
+  position: relative;
+}
+
+
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   #app {
