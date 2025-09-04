@@ -1,10 +1,10 @@
 <template>
   <div class="controle-eventos-card">
-    <h2>Controle Festival - Participantes da Call</h2>
-    <div class="controle-festival-image">
-      <img src="/controle.png" alt="Controle Festival Discord Call" />
-    </div>
-    <p>Esta seção exibe os participantes da call do Discord durante os eventos, facilitando o acompanhamento da presença.</p>
+
+    <section class="presenca-call" style="background: #f9fff0; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+      <div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
+      </div>
+    </section>
 
     <section class="funcoes-festival">
       <h3>Funções da Equipe Festival</h3>
