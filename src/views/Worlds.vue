@@ -57,6 +57,42 @@ export default {
   margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .worlds-card {
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .worlds-content {
+    flex-direction: column;
+  }
+
+  .worlds-info {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .worlds-card {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  .worlds-list li {
+    font-size: 0.9em;
+  }
+
+  .worlds-info {
+    font-size: 0.9em;
+  }
+}
+
 h2 {
   color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;

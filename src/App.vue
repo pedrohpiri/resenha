@@ -187,6 +187,28 @@ img:hover {
 
 
 /* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  #app {
+    padding: 15px;
+  }
+
+  .menu {
+    gap: 15px;
+  }
+
+  .menu a {
+    font-size: 1em;
+  }
+
+  .card {
+    padding: 20px 25px;
+  }
+
+  section h2 {
+    font-size: 1.6em;
+  }
+}
+
 @media (max-width: 768px) {
   #app {
     padding: 10px;
@@ -195,6 +217,7 @@ img:hover {
   .menu {
     padding: 10px;
     gap: 10px;
+    justify-content: space-around;
   }
 
   .menu a {
@@ -204,10 +227,15 @@ img:hover {
 
   .card {
     padding: 15px 20px;
+    margin-top: 30px;
   }
 
   section h2 {
     font-size: 1.5em;
+  }
+
+  section p {
+    font-size: 1em;
   }
 }
 
@@ -215,18 +243,26 @@ img:hover {
   .menu {
     flex-direction: column;
     align-items: center;
+    gap: 5px;
   }
 
   .menu a {
     font-size: 0.8em;
+    width: 100%;
+    justify-content: center;
   }
 
   .card {
     padding: 10px 15px;
+    margin-top: 20px;
   }
 
   section h2 {
     font-size: 1.3em;
+  }
+
+  section p {
+    font-size: 0.95em;
   }
 }
 </style>

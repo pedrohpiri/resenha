@@ -32,18 +32,50 @@ h2 {
   color: #6b21a8;
   margin-bottom: 10px;
 }
+
 ul {
   list-style: none;
   padding: 0;
 }
+
 li {
   margin-bottom: 8px;
 }
+
 a {
   color: #4c1d95;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  a {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3em;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
 }
 </style>

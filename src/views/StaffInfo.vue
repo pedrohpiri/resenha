@@ -45,6 +45,20 @@ export default {
   margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .staff-info-card {
+    padding: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .staff-info-card {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
 h2 {
   color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;

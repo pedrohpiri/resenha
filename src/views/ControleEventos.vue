@@ -186,6 +186,20 @@ export default {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .controle-eventos-card {
+    padding: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .controle-eventos-card {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
 h2 {
   color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
@@ -229,6 +243,38 @@ h2 {
 
 .comando .descricao {
   flex: 1;
+}
+
+@media (max-width: 768px) {
+  .comando {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .comando img {
+    max-width: 120px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .comandos-anti-zaralho h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .comando {
+    padding: 8px;
+  }
+
+  .comando img {
+    max-width: 100px;
+  }
+
+  .comandos-anti-zaralho h3 {
+    font-size: 1.3em;
+  }
 }
 
 .comando .descricao h4 {

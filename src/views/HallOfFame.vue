@@ -63,6 +63,43 @@ h2 {
   align-items: flex-start;
 }
 
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .halloffame-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .halloffame-section {
+    max-width: 100%;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .halloffame-card {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .halloffame-section h3 {
+    font-size: 1.2em;
+  }
+
+  .halloffame-section p,
+  .halloffame-call-text {
+    font-size: 1em;
+  }
+
+  .halloffame-footer-text {
+    font-size: 1em;
+    margin-top: 20px;
+  }
+}
+
 .halloffame-section {
   flex: 1 1 45%;
   min-width: 320px;

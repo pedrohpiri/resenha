@@ -19,4 +19,20 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 12px 0;
+    margin-top: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
 </style>

@@ -19,7 +19,33 @@ h2 {
   color: #0b3d0b; /* verde escuro */
   margin-bottom: 15px;
 }
+
+p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
 img {
   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
 }
 </style>
