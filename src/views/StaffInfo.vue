@@ -14,14 +14,14 @@
     <h3>Hierarquia dos Eventos</h3>
     <div class="hierarquia-container">
       <ul>
-        <li><font-awesome-icon icon="crown" class="icon adm-master-icon" /> <strong>ADM MASTER</strong> <span class="mention">@Eduardo Shelby</span></li>
+        <li><font-awesome-icon icon="crown" class="icon adm-master-icon" /> <strong>ADM MASTER</strong> </li>
         <li><font-awesome-icon icon="crown" class="icon adm-icon" /> <strong>ADM</strong></li>
-        <li><font-awesome-icon icon="hands-helping" class="icon responsavel-icon" /> <strong>RESPONSÁVEL</strong> <span class="mention">@Resp.FsT Baco #1K | 1049</span></li>
-        <li><font-awesome-icon icon="user-friends" class="icon auxiliares-icon" /> <strong>AUXILIARES</strong> <span class="mention">@Aux.FsT Naty #1K | 2106</span> <span class="mention">@Aux.FsT Alice | 3979</span></li>
-        <li><font-awesome-icon icon="star" class="icon lideres-icon" /> <strong>LÍDERES</strong> <span class="mention">@Lider.FsT Blaze 7! | 1383</span> <span class="mention">@Lider.FsT Lia | 1110</span> <span class="mention">@Lider.FsT Moreira | 3946</span></li>
-        <li><font-awesome-icon icon="user-tie" class="icon sublideres-icon" /> <strong>SUB-LÍDERES</strong> <span class="mention">@Sub.FsT Dj Marcos | 14465</span> <span class="mention">@Sub.FsT Gabriel | 18803</span></li>
-        <li><font-awesome-icon icon="users" class="icon membros-icon" /> <strong>MEMBROS</strong> <span class="mention">@EoPeha</span> <span class="mention">@FsT Raquel | 14295</span> <span class="mention">@FsT Santana | 21336</span> <span class="mention">@FsT Soarex | 3105</span> <span class="mention">@FsT Anny | 23787</span></li>
-        <li><font-awesome-icon icon="user" class="icon membro-t-icon" /> <strong>MEMBRO T</strong> <span class="mention">@FsT-T Zezão | 18011</span> <span class="mention">@FsT-T Eduardo | 4946</span> <span class="mention">@FsT Travis Shelby | 20425</span> <span class="mention">@FsT-T Robson Larea | 9584</span> <span class="mention">@FsT-T Noan | 9269</span> <span class="mention">@FsT-T Lunna | 23788</span> <span class="mention">@FsT-T Samuel | 6912</span> <span class="mention">@FsT-T Dnzinho | 24079</span></li>
+        <li><font-awesome-icon icon="hands-helping" class="icon responsavel-icon" /> <strong>RESPONSÁVEL</strong> </li>
+        <li><font-awesome-icon icon="user-friends" class="icon auxiliares-icon" /> <strong>AUXILIARES</strong> </li>
+        <li><font-awesome-icon icon="star" class="icon lideres-icon" /> <strong>LÍDERES</strong> </li>
+        <li><font-awesome-icon icon="user-tie" class="icon sublideres-icon" /> <strong>SUB-LÍDERES</strong> </li>
+        <li><font-awesome-icon icon="users" class="icon membros-icon" /> <strong>MEMBROS</strong> </li>
+        <li><font-awesome-icon icon="user" class="icon membro-t-icon" /> <strong>MEMBRO T</strong> </li>
       </ul>
       <p>
         A hierarquia deve ser sempre respeitada nos eventos. Qualquer problema que envolva membros teste ou membros deve ser reportado primeiro ao sub-líder de eventos. Caso ele não consiga resolver ou não esteja presente, o próximo passo é procurar o líder. Se ainda assim não houver solução, deve-se recorrer ao AUX ou ao responsável da pasta de eventos. É <strong>estritamente proibido</strong> entrar em contato direto com o ADM da pasta, <strong>exceto em casos extremos</strong>. Seguir essa ordem garante organização e respeito entre todos.
