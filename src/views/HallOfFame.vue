@@ -25,7 +25,7 @@ AZ:
       </div>
     </div>
     <p class="halloffame-footer-text">
-      A presença no call é fundamental, pois é a partir dela que conseguimos avaliar o desempenho semanal.
+      A presença na call é fundamental, pois é a partir dela que conseguimos avaliar o desempenho semanalmente.
     </p>
   </div>
 </template>
