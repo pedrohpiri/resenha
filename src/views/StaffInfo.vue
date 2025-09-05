@@ -1,14 +1,14 @@
 <template>
   <div class="staff-info-card">
-    <h2><font-awesome-icon icon="mask" /> Máscara Oficial da Pasta</h2>
+    <h2><font-awesome-icon icon="mask" /> MASCARA EQUIPE RESENHA</h2>
     <div class="mask-content">
-      <img src="/mascara159.png" alt="Máscara Oficial" />
+      <img src="/mascara.png" alt="Máscara Equipe Resenha" />
       <div class="mask-details">
         <ul>
-          <li><strong>Máscara:</strong> 159</li>
-          <li><strong>Textura:</strong> 0</li>
+          <li><strong>Masculina:</strong> 248</li>
+          <li><strong>Feminino:</strong> 247</li>
         </ul>
-        <p>Todos os membros devem utilizá-la conforme o padrão estabelecido.</p>
+        <p><strong>USADA EM EVENTOS OU RESENHAS</strong></p>
       </div>
     </div>
     <h3>Hierarquia dos Eventos</h3>
@@ -27,6 +27,44 @@
         A hierarquia deve ser sempre respeitada nos eventos. Qualquer problema que envolva membros teste ou membros deve ser reportado primeiro ao sub-líder de eventos. Caso ele não consiga resolver ou não esteja presente, o próximo passo é procurar o líder. Se ainda assim não houver solução, deve-se recorrer ao AUX ou ao responsável da pasta de eventos. É <strong>estritamente proibido</strong> entrar em contato direto com o ADM da pasta, <strong>exceto em casos extremos</strong>. Seguir essa ordem garante organização e respeito entre todos.
       </p>
     </div>
+  </div>
+
+  <div class="resenha-equipe-card">
+    <h3>Equipe Resenha</h3>
+    <ul>
+      <li><strong>Manter o servidor e o roleplay:</strong></li>
+      <ul>
+        <li>Assegurar que a experiência de jogo seja fluida, divertida e justa para todos os jogadores, mantendo os padrões de roleplay estabelecidos pelo servidor!</li>
+      </ul>
+      <li><strong>Função nas Resenhas e Eventos:</strong></li>
+      <ul>
+        <li>Além do som e do F3, devemos ter atenção ao zaralho e ajudar os novatos e guiá-los. Não brigue nem discuta, você é um staff agora e pode simplesmente jogar o zaralho praça ou dar um kick (em último caso).</li>
+      </ul>
+      <li><strong>Prestar suporte:</strong></li>
+      <ul>
+        <li>Ajudar os jogadores, responder a dúvidas e atender a chamados para resolução de problemas, demonstrando proatividade e disponibilidade!</li>
+      </ul>
+      <li><strong>Conduta Exemplar:</strong></li>
+      <ul>
+        <li>Ser um modelo de comportamento ético e profissional dentro e fora do servidor, influenciando positivamente a comunidade.</li>
+      </ul>
+      <li><strong>Abuso de Poder:</strong></li>
+      <ul>
+        <li>O abuso de poder pelos próprios staffs é uma violação das regras que pode levar a banimento permanente do servidor!</li>
+      </ul>
+      <li><strong>Presença na Call do Discord:</strong></li>
+      <ul>
+        <li>Call é sagrada! Acordou na cidade? Já entra na call. Fica com o microfone ligado (quando possível), participa! Sua voz faz a diferença!</li>
+      </ul>
+      <li><strong>Skin é identidade:</strong></li>
+      <ul>
+        <li>Nada de se setar skin do nada! Só Auxiliar ou Resp pode mexer nisso.</li>
+      </ul>
+      <li><strong>Lembre aí, hein:</strong></li>
+      <ul>
+        <li>Você agora é uma Figura Pública da cidade. Mantenha a postura, represente a Nossa família da Festival, e bora viver o RP com estilo!</li>
+      </ul>
+    </ul>
   </div>
 </template>
 
@@ -217,4 +255,35 @@ h3 {
 .sublider-icon {
   color: #4cbb17; /* verde médio */
 }
-</style>
+  </style>
+
+  <style scoped>
+  .resenha-equipe-card {
+    background: #f0fff4;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(57, 181, 74, 0.2);
+    padding: 20px;
+    margin-top: 30px;
+    color: #1a3d1a;
+  }
+
+  .resenha-equipe-card h3 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+  }
+
+  .resenha-equipe-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .resenha-equipe-card ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+  }
+
+  .resenha-equipe-card li {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  </style>

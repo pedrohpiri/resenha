@@ -2,7 +2,7 @@
   <div class="discord-card">
     <h2><font-awesome-icon icon="link" /> Link de Logs Discord Grande</h2>
     <p><strong>Convite:</strong></p>
-    <p><a href="https://discord.gg/emr9Untt" target="_blank" rel="noopener noreferrer">discord.gg/emr9Untt</a></p>
+    <p><a href="https://discord.gg/6g8PbW9Y" target="_blank" rel="noopener noreferrer">discord.gg/6g8PbW9Y</a></p>
     <div class="discord-info">
       <p><strong>Sobre os "Logs" no Discord</strong></p>
       <ul>
@@ -28,15 +28,15 @@ export default {
 
 <style scoped>
 .discord-card {
-  background: #f9fff0; /* fundo claro para cards */
+  background: #fff9d6; /* amarelo claro */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
+  box-shadow: 0 6px 15px rgba(255, 235, 59, 0.4); /* sombra amarela suave */
   padding: 20px;
   margin-top: 20px;
 }
 
 h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@ h2 {
 }
 
 a {
-  color: #4cbb17; /* verde médio */
+  color: #000000; /* preto */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1em;
@@ -57,7 +57,11 @@ a:hover {
 .discord-info {
   margin-top: 15px;
   font-size: 1em;
-  color: #355e1a; /* verde médio */
+  color: #000000; /* preto */
+  background-color: #fff9d6; /* amarelo claro */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 235, 59, 0.3); /* sombra amarela suave */
 }
 
 .discord-info ul {
