@@ -6,11 +6,11 @@
       </div>
     </section>
 
-    <section class="funcoes-festival">
-      <h3>Funções da Equipe Festival</h3>
+<section class="funcoes-festival">
+      <h3>Funções da Equipe Resenha</h3>
 
       <div class="funcao">
-        <h4>Resp Festival</h4>
+        <h4>Resp Resenha</h4>
         <ul>
           <li>Administra toda a estrutura da equipe</li>
           <li>Supervisionar toda a pasta e cobrar resultados.</li>
@@ -25,7 +25,7 @@
       </div>
 
       <div class="funcao">
-        <h4>Aux Festival</h4>
+        <h4>Aux Resenha</h4>
         <ul>
           <li>Apoio estratégico da liderança e responsável por manter o padrão da pasta</li>
           <li>Acompanhar a execução dos eventos e corrigir falhas, feedbacks após evento (principalmente baladas)</li>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="funcao">
-        <h4>Líder Festival</h4>
+        <h4>Líder Resenha</h4>
         <ul>
           <li>Comanda a equipe das festas, organiza eventos e cronogramas.</li>
           <li>Criar o cronograma de festas da semana.</li>
@@ -52,7 +52,7 @@
       </div>
 
       <div class="funcao">
-        <h4>Sub Líder Festival</h4>
+        <h4>Sub Líder Resenha</h4>
         <ul>
           <li>Suporte direto ao líder, organiza e supervisiona os membros</li>
           <li>Supervisionar presenças e atividade/funções dos fst e fst-t.</li>
@@ -64,7 +64,7 @@
       </div>
 
       <div class="funcao">
-        <h4>Membro Festival</h4>
+        <h4>Membro Resenha</h4>
         <ul>
           <li>Parte ativa da equipe, já com função definida</li>
           <li>Participar ativamente de eventos e estar presente nas calls obrigatórias.</li>
@@ -77,7 +77,7 @@
       </div>
 
       <div class="funcao">
-        <h4>Festival Teste</h4>
+        <h4>Resenha Teste</h4>
         <ul>
           <li>Avaliado pela presença, vontade, disciplina e desenvolvimento na pasta.</li>
           <li>Participar ativamente dos eventos (F3/Som/AZ)</li>

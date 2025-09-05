@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="menu">
-      <a href="#eventalignment"><font-awesome-icon icon="house" /> Alinhamento Festival</a>
+      <a href="#eventalignment"><font-awesome-icon icon="house" /> Alinhamento Resenha</a>
       <a href="#staff"><font-awesome-icon icon="users" /> Staff</a>
       <a href="#commands"><font-awesome-icon icon="terminal" /> Comandos</a>
 <a href="#halloffame"><font-awesome-icon icon="trophy" /> Print Presença</a>

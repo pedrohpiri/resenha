@@ -62,7 +62,7 @@
       </ul>
       <li><strong>Lembre aí, hein:</strong></li>
       <ul>
-        <li>Você agora é uma Figura Pública da cidade. Mantenha a postura, represente a Nossa família da Festival, e bora viver o RP com estilo!</li>
+Você agora é uma Figura Pública da cidade. Mantenha a postura, represente a Nossa família da Resenha, e bora viver o RP com estilo!
       </ul>
     </ul>
   </div>

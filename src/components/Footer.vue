@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>© 2025 Cidade Grande - Pasta de Festival. DEV por PH Id: 8493</p>
+<p>© 2025 Cidade Grande - Pasta de Resenha. DEV por PH Id: 8493</p>
   </footer>
 </template>
 
