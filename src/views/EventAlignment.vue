@@ -1,12 +1,25 @@
 <template>
   <div class="alignment-card">
     <h2>Alinhamento Festival</h2>
+    <a href="https://docs.google.com/document/d/e/2PACX-1vRUQx4N7Lm6nOfvorc2w_9avhTtB7nLmy1AGnmtHEjy_JruYtg3YlQJnMzaVbNIvheKGxmAG6JRdz9X/pub" target="_blank" rel="noopener noreferrer" class="rules-link">
+      <font-awesome-icon icon="external-link-alt" class="link-icon" />
+      REGRAS GERAIS DA CIDADE GRANDE!
+    </a>
   </div>
 </template>
 
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(faExternalLinkAlt)
+
 export default {
-  name: 'EventAlignment'
+  name: 'EventAlignment',
+  components: {
+    FontAwesomeIcon
+  }
 }
 </script>
 
@@ -31,5 +44,23 @@ h2 {
   color: #0b3d0b; /* verde escuro para contraste */
   font-weight: 700;
   font-size: 2em;
+}
+.rules-link {
+  color: #0b3d0b;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  transition: text-decoration 0.3s ease;
+}
+.rules-link:hover {
+  text-decoration: underline;
+}
+.link-icon {
+  margin-right: 6px;
+  vertical-align: middle;
+  color: #0b3d0b;
+  font-size: 1em;
 }
 </style>
