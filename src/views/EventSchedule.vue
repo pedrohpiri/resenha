@@ -1,6 +1,6 @@
 <template>
   <div class="schedule-card">
-    <h2>Horários dos Eventos do Festival</h2>
+    <h2>Horários dos Eventos da Resenha</h2>
     <table class="schedule-table">
       <thead>
         <tr>
@@ -27,18 +27,18 @@ export default {
   data() {
     return {
       schedule: [
-        { time: '01h30', event: 'Noite da perdição' },
-        { time: '03h30', event: 'Rolê da madruga' },
-        { time: '05H30', event: 'Cafénejo' },
-        { time: '07h30', event: 'Festinha na city' },
-        { time: '09h30', event: 'Trap do Amanhecer' },
-        { time: '11h30', event: 'MC IG' },
-        { time: '13h30', event: 'Barzinho do Omar' },
-        { time: '15h30', event: 'Sunset Eletrônico' },
-        { time: '17h30', event: 'Luau da Tarde' },
-        { time: '19h30', event: 'Resenha Prime' },
-        { time: '21h30', event: 'Cayo Perico' },
-        { time: '23h30', event: 'Bailão da Noite' }
+        { time: '02h30', event: 'Noite da perdição' },
+        { time: '04h30', event: 'Rolê da madruga' },
+        { time: '06h30', event: 'Cafénejo' },
+        { time: '08h30', event: 'Festinha na city' },
+        { time: '10h30', event: 'Trap do Amanhecer' },
+        { time: '12h30', event: 'MC IG' },
+        { time: '14h30', event: 'Barzinho do Omar' },
+        { time: '16h30', event: 'Sunset Eletrônico' },
+        { time: '18h30', event: 'Luau da Tarde' },
+        { time: '20h30', event: 'Resenha Prime' },
+        { time: '22h30', event: 'Cayo Perico' },
+        { time: '00h30', event: 'Bailão da Noite' }
       ]
     }
   }
