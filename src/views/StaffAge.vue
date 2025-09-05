@@ -62,12 +62,12 @@ export default {
 }
 
 .staff-age-icon {
-  color: #0b3d0b; /* verde escuro */
+  color: #ffcc00; /* amarelo vibrante */
   margin: 15px 0;
 }
 
 .staff-age-card h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   font-weight: 700;
   font-size: 2em;
   margin-bottom: 10px;

@@ -11,7 +11,7 @@ export default {
 
 <style scoped>
 h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   margin-bottom: 15px;
 }
 
@@ -22,13 +22,13 @@ ul {
 }
 
 li {
-  background: #f9fff0; /* fundo claro */
+  background: #fffacd; /* fundo amarelo claro */
   margin-bottom: 8px;
   padding: 10px 15px;
   border-radius: 8px;
-  border-left: 4px solid #a4c639; /* verde vibrante */
+  border-left: 4px solid #ffcc00; /* amarelo vibrante */
   font-weight: 600;
-  color: #0b3d0b; /* texto verde escuro */
+  color: #000000; /* texto preto */
 }
 
 li:nth-child(even) {

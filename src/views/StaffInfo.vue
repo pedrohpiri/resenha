@@ -60,7 +60,7 @@ export default {
 }
 
 h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -132,7 +132,7 @@ h2 {
 
 h3 {
   margin-top: 30px;
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
 }
 .hierarquia-container {
   background: #0b2e00; /* verde escuro */

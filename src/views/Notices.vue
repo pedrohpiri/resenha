@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
 h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   margin-bottom: 15px;
 }
 

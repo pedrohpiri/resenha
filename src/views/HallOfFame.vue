@@ -38,21 +38,21 @@ export default {
 
 <style scoped>
 .halloffame-card {
-  background: #f9fff0;
+  background: #fffacd; /* amarelo claro */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2);
+  box-shadow: 0 6px 15px rgba(255, 204, 0, 0.2); /* sombra amarela */
   padding: 30px 40px;
   margin-top: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #355e1a;
+  color: #333300; /* amarelo escuro */
 }
 
 h2 {
-  color: #0b3d0b;
+  color: #000000; /* preto */
   margin-bottom: 25px;
   font-weight: 700;
   font-size: 2em;
-  text-shadow: 0 0 8px #a4c639;
+  text-shadow: 0 0 8px #ffcc00; /* sombra amarela */
 }
 
 .halloffame-content {
@@ -104,18 +104,18 @@ h2 {
   flex: 1 1 45%;
   min-width: 320px;
   max-width: 48%;
-  background: #e6f0c3;
+  background: #fffacd; /* amarelo claro */
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(164, 198, 57, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 204, 0, 0.3); /* sombra amarela */
 }
 
 .halloffame-section h3 {
-  color: #a4c639;
+  color: #ffcc00; /* amarelo vibrante */
   font-weight: 700;
   font-size: 1.4em;
   margin-bottom: 15px;
-  text-shadow: 0 0 5px #a4c639;
+  text-shadow: 0 0 5px #ffcc00;
 }
 
 .halloffame-image {
@@ -128,7 +128,7 @@ h2 {
 .halloffame-section p {
   font-size: 1.1em;
   line-height: 1.6;
-  color: #3a5a1a;
+  color: #333300; /* amarelo escuro */
 }
 
 .halloffame-call-text {
@@ -136,11 +136,11 @@ h2 {
   font-weight: bold;
   white-space: pre-line;
   font-size: 1.1em;
-  color: #3a5a1a;
-  background: #d9e6b8;
+  color: #333300; /* amarelo escuro */
+  background: #fffacd; /* amarelo claro */
   padding: 15px;
   border-radius: 8px;
-  box-shadow: inset 0 0 5px #a4c639;
+  box-shadow: inset 0 0 5px #ffcc00; /* sombra amarela */
   margin-top: 0;
 }
 

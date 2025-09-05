@@ -12,8 +12,8 @@ export default {
 
 <style scoped>
 footer {
-  background-color: #0b3d0b; /* verde escuro */
-  color: white;
+  background-color: #000000; /* preto */
+  color: #ffcc00; /* amarelo */
   text-align: center;
   padding: 15px 0;
   margin-top: 40px;

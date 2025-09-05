@@ -94,7 +94,7 @@ export default {
 }
 
 h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
   margin-bottom: 15px;
 }
 
@@ -125,16 +125,16 @@ h2 {
 }
 
 .worlds-list li:hover {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
 }
 
 .icon {
-  color: #4cbb17; /* verde médio */
+  color: #ffcc00; /* amarelo vibrante */
   transition: color 0.3s ease;
 }
 
 .worlds-list li:hover .icon {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
 }
 
 .worlds-info {
@@ -151,18 +151,18 @@ h2 {
 }
 
 .command-highlight {
-  background-color: #f9fff0; /* fundo claro */
-  border-left: 4px solid #a4c639; /* verde vibrante */
+  background-color: #fffacd; /* amarelo claro */
+  border-left: 4px solid #ffcc00; /* amarelo vibrante */
   padding: 10px 15px;
   border-radius: 4px;
   margin-top: 10px;
 }
 
 code {
-  background: #e6f2d9; /* fundo claro */
+  background: #fffacd; /* amarelo claro */
   padding: 2px 6px;
   border-radius: 4px;
   font-family: monospace;
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* preto */
 }
 </style>

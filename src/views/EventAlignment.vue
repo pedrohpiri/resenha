@@ -1,6 +1,6 @@
 <template>
   <div class="alignment-card">
-    <h2>Alinhamento Festival</h2>
+    <h2>Alinhamento Resenha</h2>
     <a href="https://docs.google.com/document/d/e/2PACX-1vRUQx4N7Lm6nOfvorc2w_9avhTtB7nLmy1AGnmtHEjy_JruYtg3YlQJnMzaVbNIvheKGxmAG6JRdz9X/pub" target="_blank" rel="noopener noreferrer" class="rules-link">
       <font-awesome-icon icon="external-link-alt" class="link-icon" />
       REGRAS GERAIS DA CIDADE GRANDE!
@@ -25,9 +25,9 @@ export default {
 
 <style scoped>
 .alignment-card {
-  background: #a4c639; /* verde vibrante da imagem */
+  background: #fffacd; /* amarelo claro */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 80, 0, 0.2); /* sombra verde escuro sutil */
+  box-shadow: 0 6px 15px rgba(255, 204, 0, 0.2); /* sombra amarela suave */
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -41,12 +41,12 @@ export default {
 }
 
 h2 {
-  color: #0b3d0b; /* verde escuro para contraste */
+  color: #000000; /* preto */
   font-weight: 700;
   font-size: 2em;
 }
 .rules-link {
-  color: #0b3d0b;
+  color: #000000;
   font-weight: 600;
   font-size: 1.2em;
   text-decoration: none;
@@ -60,7 +60,7 @@ h2 {
 .link-icon {
   margin-right: 6px;
   vertical-align: middle;
-  color: #0b3d0b;
+  color: #000000;
   font-size: 1em;
 }
 </style>

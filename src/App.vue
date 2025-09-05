@@ -111,8 +111,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6f2d9; /* fundo claro verde */
-  color: #0b3d0b; /* texto verde escuro */
+  background-color: #fff8dc; /* fundo amarelo claro (cornsilk) */
+  color: #000000; /* texto preto */
 }
 
 #app {
@@ -122,18 +122,18 @@ body {
 }
 
 .menu {
-  background-color: #a4c639; /* verde vibrante */
+  background-color: #ffcc00; /* amarelo vibrante */
   padding: 12px 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(164, 198, 57, 0.3); /* sombra verde */
+  box-shadow: 0 4px 8px rgba(255, 204, 0, 0.3); /* sombra amarela */
   flex-wrap: wrap;
 }
 
 .menu a {
-  color: white;
+  color: #000000; /* texto preto */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1em;
@@ -144,24 +144,24 @@ body {
 }
 
 .menu a:hover {
-  color: #d1b3ff;
+  color: #333300; /* amarelo escuro para hover */
 }
 
 .card {
   margin-top: 40px;
   padding: 25px 30px;
-  background-color: #f9fff0; /* fundo claro para cards */
+  background-color: #fffacd; /* fundo amarelo claro (lemon chiffon) */
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(164, 198, 57, 0.2); /* sombra verde suave */
+  box-shadow: 0 6px 15px rgba(255, 204, 0, 0.2); /* sombra amarela suave */
   transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 10px 25px rgba(164, 198, 57, 0.3);
+  box-shadow: 0 10px 25px rgba(255, 204, 0, 0.3);
 }
 
 section h2 {
-  color: #0b3d0b; /* verde escuro */
+  color: #000000; /* texto preto */
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 1.8em;
@@ -170,7 +170,7 @@ section h2 {
 section p {
   line-height: 1.6;
   font-size: 1.05em;
-  color: #355e1a; /* verde médio para texto secundário */
+  color: #666600; /* amarelo escuro para texto secundário */
 }
 
 img {
